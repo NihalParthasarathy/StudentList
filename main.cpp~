@@ -1,0 +1,45 @@
+#include <iostream>
+#include <cstring>
+#include <vector>
+
+using namespace std;
+
+struct student {
+  char first[20];
+  char last[20];
+  int id;
+  float gpa;
+
+}
+
+int main() {
+  char input[10];
+  cin.get(input, 10);
+  cin.get();
+
+  vector <student*> vec;
+  vector* ptr;
+  ptr = &vec;
+  if (strcmp(input, "ADD") == 0) {
+    
+  }
+  else if (strcmp(input, "PRINT") == 0) {
+
+  }
+  else if (strcmp(input, "DELETE") == 0) {
+
+  }
+
+  return 0;
+}
+
+
+void addStudent(vector<student*>) {
+  student *newStudent = new student();
+  cin >> student->id;
+  cin >> student->gpa
+  newStudent->id = id;
+  newStudent->gpa = gpa;
+  vec.push_back(newStudent);
+
+}
