@@ -1,5 +1,5 @@
 //Nihal Parthasarathy
-//11/6/2021
+//11/5/2021
 //This program takes in students with their info and puts them into a list where the program can print it out and can delete a specif student based of their id number
 #include <iostream>
 #include <cstring>
